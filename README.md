@@ -1,2 +1,2 @@
 # Efes
-Proof of concept demo for a tool that listens for keywords, and records audio to a file. 
+A simple proof-of-concept tool that uses the built-in speech recognition to listen for certain keywords that are spoken, and then saves that audio to the file. This post-exploitation tool could be used to passively listen for high-value data, and save it off to a file to be exfiltrated at a later date. Since it only records small snippets, the file size should be small, and ideally, only the interesting snippets would be recorded. 
