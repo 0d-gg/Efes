@@ -11,8 +11,10 @@ namespace Efes
         static void Main(string[] args)
         {
             var dropper = new Dropper("keywords.dat", new System.Globalization.CultureInfo("en-US"));
+            dropper.StartListening();
             Console.ReadKey();
-            dropper.Listening = false;
+            Console.WriteLine(dropper.Collectfiles());
+            Console.ReadKey(); 
         }
     }
 }
